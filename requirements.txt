@@ -1,0 +1,40 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+pydantic[email]==2.9.0
+python-dotenv==1.0.1
+httpx==0.27.0
+
+# OpenAI Agents SDK
+openai-agents==0.0.7
+openai==1.50.0
+
+# Database
+asyncpg==0.29.0
+pgvector==0.3.0
+sqlalchemy==2.0.35
+alembic==1.13.0
+
+# Kafka
+aiokafka==0.10.0
+
+# Gmail
+google-api-python-client==2.140.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+google-cloud-pubsub==2.22.0
+
+# Twilio (WhatsApp)
+twilio==9.2.0
+
+# Utilities
+python-multipart==0.0.9
+structlog==24.4.0
+tenacity==8.5.0
+numpy==1.26.4
+
+# Testing
+pytest==8.3.0
+pytest-asyncio==0.24.0
+httpx==0.27.0
+locust==2.29.0

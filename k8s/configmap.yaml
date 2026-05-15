@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fte-config
+  namespace: fte-factory
+data:
+  POSTGRES_HOST: "postgres-service"
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: "fte_db"
+  KAFKA_BOOTSTRAP_SERVERS: "kafka-service:9092"
+  OPENAI_MODEL: "gpt-4o"
+  LOG_LEVEL: "INFO"
